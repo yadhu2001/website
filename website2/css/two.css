@@ -1,0 +1,21 @@
+.head{
+    margin-left: 78%;
+}
+.head a{
+    color: black;
+}
+.one{
+    background-image: url('images/image-header.jpg');
+    height: 100vh;
+   
+    
+}
+.one h3{ color:white;
+
+}
+.one a{
+    color: white;
+}
+h1{
+    color: blue;
+}

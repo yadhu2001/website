@@ -1,0 +1,81 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;1,100;1,200&family=Pangolin&family=Poppins:ital,wght@0,200;1,100;1,200&family=Roboto+Slab:wght@100;200;300&family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400&display=swap');
+
+  /*font-family: 'Montserrat', sans-serif;
+  font-family: 'Pangolin', cursive;
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto Slab', serif;*/
+
+/* .one img{
+padding-left: 380px; 
+width: 100%;
+}  */
+.demo{
+    margin-left: 68%;
+}
+.demo a{
+    color: black;
+}
+.demo a:hover{
+    color: rgb(255, 0, 0);
+}
+.three img{
+   width: 100%;
+}
+.four{
+    border-bottom: 1px solid; 
+}
+.five{
+    font-size: 18px;
+}
+.six{
+    border-bottom: 1px solid;
+}
+.seven{
+    font-size: 23px;
+}
+.eight{
+    font-size:50px;
+    font-weight: 900;
+    padding-top: 4%;
+}
+.nine{
+    padding-top: 5%;
+    font-size: 19px;
+}
+.ten{
+    background-color: black;
+    color: azure;
+    padding-bottom: 5%;
+   
+}
+.ten h3{
+font-size:22px;
+}
+.ten p{
+color:rgb(157, 130, 172);
+}
+h3:hover{
+    color:rgb(230, 133, 7);
+}
+.eleven{
+    color: rgb(230, 133, 7);
+}
+.twelve{
+   background-color: rgb(255, 46, 46);
+   color: white;
+}
+button:hover{
+    background-color: black;
+}
+
+.forteen img{
+    width: 100%;
+}
+.fifteen img{
+    width: 100%;
+}
+ .sixteen img{
+    width: 100%;
+}  
