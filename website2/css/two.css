@@ -1,21 +1,29 @@
-.head{
-    margin-left: 78%;
-}
-.head a{
-    color: black;
-}
 .one{
-    background-image: url('images/image-header.jpg');
+    background-image: url('/website2/images/background.jpg');
     height: 100vh;
-   
-    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
 }
-.one h3{ color:white;
-
+.two a{
+    text-decoration: none;
+    color: white;
+    padding-right:10%;
+    font-weight: 600;
 }
-.one a{
+.navbar-brand{
     color: white;
 }
-h1{
-    color: blue;
+.two .navbar-nav .nav-item .three{
+color: black;
+background-color: white;
+border-radius: 25px;
+}
+.heading{
+    text-align: center;
+    padding-top: 160px;
+    color: white;
+    font-size: large;
+    font-weight: 900;
+    font-size: 30px;
 }
