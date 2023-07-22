@@ -1,15 +1,31 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Belanosima&family=Chela+One&family=Fraunces:wght@200&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@200&family=Belanosima&family=Chela+One&family=Fraunces:wght@200&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@200;500&family=Belanosima&family=Chela+One&family=Fraunces:wght@200&display=swap');
+
 .one{
     background-image: url('/website2/images/background.jpg');
     height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom;
+    padding-top: 3%;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+ul .nine a:hover{
+    background-color: grey !important
 }
 .two a{
     text-decoration: none;
-    color: white;
+ 
     padding-right:10%;
     font-weight: 600;
+    font-family: 'Barlow', sans-serif;
+    font-size: 18px;
+    margin-right: 40px;
 }
 .navbar-brand{
     color: white;
@@ -19,11 +35,33 @@ color: black;
 background-color: white;
 border-radius: 25px;
 }
+
 .heading{
     text-align: center;
     padding-top: 160px;
     color: white;
-    font-size: large;
-    font-weight: 900;
-    font-size: 30px;
+
 }
+.one .four{
+    font-weight: 900;
+    font-family: 'Fraunces', serif;
+    font-size: 24px;
+}
+.arrow{
+    padding-left: 48%; padding-top: 6%;
+}
+.egg{
+    width: 100%;
+}
+.six {
+    padding-top: 30%;
+    font-family: 'Barlow', sans-serif;
+    font-size: 18px;
+}
+.six a{
+    text-decoration: none;
+}
+.six h1{
+    font-weight: 900;
+}
+.six align-self: :hover
