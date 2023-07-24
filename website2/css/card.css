@@ -1,0 +1,12 @@
+body{
+    padding: 2rem 0rem;
+  }
+  .card-img-overlay {
+    background-color: rgba(#000, 0.4);
+  }
+  p{
+    padding-top: 15%;
+  }
+  h2{
+    color: black;
+  }
