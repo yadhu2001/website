@@ -4,9 +4,11 @@ body{
   .card-img-overlay {
     background-color: rgba(#000, 0.4);
   }
-  p{
+  .ten p{
     padding-top: 15%;
+    font-size: 22px;
   }
-  h2{
+  .eleven h2{
+    padding-left: 15%;
     color: black;
   }

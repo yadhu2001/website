@@ -8,8 +8,8 @@
     overflow-x: hidden;
   
 } */
+
 .one{
-    
     background-image: url('/website2/images/background.jpg');
     height: 100vh;
     background-repeat: no-repeat;
@@ -82,10 +82,38 @@ border-radius: 25px;
     padding-left: 0;
     padding-right: 0;
 }
-p{
-    padding-top: 20%;
+.seven .eleven{
+    font-size: 20px;
   }
-  h2{
+.seven h2.ten{
     color: black;
-    padding-top: 20%;
+   
   }
+ .seven .aaa{
+    top: 40%;
+    left: 10%;
+  }
+  .twelve{
+    padding-top: 7%;
+    padding-bottom: 7%;
+    background-color: white;
+  }
+.card
+{
+    border:none;
+}
+.user-content p
+{
+    margin-top:5px;
+    font-size:12px;
+}
+span.ttt{
+    padding-bottom: 3%;
+}
+.twelve p{
+    font-size: 15px;
+    font-weight: 700;
+}
+.xyz{
+    text-align: center;
+}
