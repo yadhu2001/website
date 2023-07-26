@@ -117,3 +117,18 @@ span.ttt{
 .xyz{
     text-align: center;
 }
+.photo img{
+    width: 100%;
+}
+.footer a{
+    text-decoration: none;
+    color: rgb(39, 126, 39);
+}
+.icons{
+    background-color: aquamarine;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+.footer a:hover{
+    color: white;
+}
