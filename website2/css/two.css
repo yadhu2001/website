@@ -132,3 +132,34 @@ span.ttt{
 .footer a:hover{
     color: white;
 }
+/* Reset default button styles */
+button {
+    border: none;
+    background-color: transparent;
+    color: #333;
+    font-size: 16px;
+    padding: 10px 20px;
+    position: relative;
+    cursor: pointer;
+    overflow: hidden; /* This is important to hide the ::before and ::after elements initially */
+  }
+  
+  /* Apply the hover effect */
+  .button::before,
+  .button::after {
+    content: "";
+    position: absolute;
+    bottom: 0; /* Position the elements at the bottom */
+    left: 0;
+    width: 100%;
+    height: 0; /* Start with height 0 */
+    background-color: #0088cc;
+    transition: height 0.3s ease; /* Use height for the transition */
+  }
+  
+  /* Slide-in effect on hover */
+  .button:hover::before,
+  .button:hover::after {
+    height: 100%; /* Slide the height to 100% on hover */
+  }
+  
