@@ -1,26 +1,11 @@
-.bg{
+.bg {
     overflow: hidden;
     position: relative;
     background: -webkit-linear-gradient(117deg, rgb(96, 87, 246), rgb(216, 71, 99));
     background: linear-gradient(117deg, rgb(96, 87, 246), rgb(216, 71, 99));
     background: -webkit-radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235));
     background: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235));
-    height: 70vh;
 }
-.two img{
-    height: 30px;
-}
-
-.three a{
-    color: white;
-}
-.one{
-    padding-top: 45px;
-    padding-left: 380px;
-    padding-right: 300px;
-}
-.text{
-    padding-left: 10%;
-    padding-top: 5%;
-    padding-right: 10%;
+.bg .background{
+    height: 100vh;
 }
