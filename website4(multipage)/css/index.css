@@ -1,0 +1,13 @@
+.navbar{
+    display: flex;
+    flex-direction: column;
+}
+.user_option {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-left: 25px;
+}
