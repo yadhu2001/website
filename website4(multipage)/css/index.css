@@ -3,11 +3,31 @@
     flex-direction: column;
 }
 .user_option {
-    display: -webkit-box;
-    display: -ms-flexbox;
+    /* display: -webkit-box;
+    display: -ms-flexbox; */
     display: flex;
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
     margin-left: 25px;
+    
+}
+nav .nav-link{
+    color: black;
+}
+.one span{
+    color: black;
+    font-size: 28px;
+    font-weight: 700;
+}
+.two{
+    background-color: #f9ece6;
+    width: 90%;
+    text-transform: uppercase;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+} 
+.user_option span{ 
+    color: black;
+    text-decoration: none;
 }
