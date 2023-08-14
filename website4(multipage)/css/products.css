@@ -11,3 +11,19 @@
 .r{
     align-items: center;
 }
+img.ring-img{
+    justify-content: center;
+}
+.five{
+    background-color: aqua;
+}
+.new a{
+    background-color: white;
+    border-radius: 50%;
+    padding: 5%;
+    text-decoration: none;
+    color: black;
+}
+.new{
+    padding-top: 10%;
+}
