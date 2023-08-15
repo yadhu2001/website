@@ -1,29 +1,116 @@
-.heading{
-    text-align: center;
-    padding-top: 10%
+
+.layout_padding {
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+*, *::before, *::after {
+    box-sizing: border-box;
 }
 
-/* .ring-img{
+.container {
     width: 100%;
-} */
-
-
-.r{
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.shop_section .heading_container {
+    margin-bottom: 20px;
+}
+.heading_container.heading_center {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
+    text-align: center;
 }
-img.ring-img{
+.heading_container {
+    flex-direction: column;
+}
+.shop_section .box {
+    background-color: #eeeeee;
+    position: relative;
+    padding: 10px;
+    margin-top: 25px;
+}
+.shop_section .box {
+    background-color: #eeeeee;
+    position: relative;
+    padding: 10px;
+    margin-top: 25px;
+}
+
+.shop_section .box .img-box {
+    display: flex;
     justify-content: center;
+    align-items: center;
+    padding: 15px 30px;
+    height: 245px;
 }
-.five{
-    background-color: aqua;
+.shop_section .box .detail-box {
+    display: flex;
+    justify-content: space-between;
 }
-.new a{
-    background-color: white;
-    border-radius: 50%;
-    padding: 5%;
+.shop_section .box .new {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: #ffffff;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    border-radius: 100%;
+    font-size: 15px;
+}
+.box a{
     text-decoration: none;
-    color: black;
 }
-.new{
-    padding-top: 10%;
+.shop_section .btn-box {
+    display: flex;
+    justify-content: center;
+    margin-top: 45px;
+}
+.shop_section .btn-box a {
+    display: inline-block;
+    padding: 10px 40px;
+    background-color: #f16179;
+    color: #ffffff;
+    border: 1px solid #f16179;
+    border-radius: 5px;
+}
+.btn-box a{
+    text-decoration: none;
+}
+.btn-box a:hover{
+    background-color: #eeeeee;
+    color: #f16179;
+}
+img.ring{
+    width: 50%;
+}
+img.watch{
+    width: 50%;
+}
+img.flower{
+    width: 50%;
+}
+img.teddy{
+    width: 50%;
+}
+@media (min-width:350px) and (max-width:576px){
+img.ring{
+width: 100px;
+}
+img.watch{
+    width: 100px;
+}
+img.flower{
+    width: 100px;
+}
+img.teddy{
+    width: 100px;
+}
 }
