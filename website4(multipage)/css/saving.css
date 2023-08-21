@@ -65,6 +65,9 @@ p{
 .container-fluid .row {
     flex-direction: column-reverse;
 } 
+.vilot .row-three{
+    flex-direction: column-reverse;
+}
  }
 
 
@@ -85,6 +88,7 @@ font-weight: 700;
 .row-one {
     display: flex;
     margin-bottom: 10%;
+  
 }
 
 .box-one{
@@ -105,4 +109,63 @@ font-weight: 700;
 }
 .details p{
     font-size: 20px;
+}
+
+/* Loved Once */
+
+.vilot{
+    padding-top:45px;
+    background-color: #6929a5;
+    color: #ffffff;
+    border-radius: 15px;
+}
+.row-three{
+    align-items: center;
+    flex-wrap: wrap;
+}
+.img-ballon .ballon{
+    width: 100%;
+    padding-top: 15px;
+    padding-left: 25px;
+}
+.details-one{
+    padding-right: 25px;
+}
+p{
+    margin-top: 5px;
+}
+.heading-one h2{
+    font-weight: 800;
+    font-size: 2rem;
+}
+.btn-boxx .btn3{
+    padding: 10px 0;
+    background-color: #ffffff;
+    color: black;
+    background-color: #ffffff;
+}
+.btn-boxx .btn4{
+    padding: 10px 0;
+    background-color: #9848e2;
+    color: #ffffff;
+    border: 1px solid #9848e2;
+}
+
+.btn-boxx  a{
+    padding: 15px 50px 15px 50px !important;
+    text-align: center;
+    margin:8px;
+    text-decoration: none;
+}
+.btn-boxx a.btn3:hover{
+    background-color: #6929a5;
+    color: rgb(1, 2, 19);
+    border: 1px solid white;
+   
+}
+.btn-boxx a.btn4:hover{
+    background-color: #6929a5;
+    color:#9848e2;
+    border: 1px solid #9848e2;
+
 }
