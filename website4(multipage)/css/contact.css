@@ -1,7 +1,28 @@
 .heading-contact h2{
     font-weight:bold;
     text-transform: uppercase;
+    margin-bottom: 30px;
 }
-.map .map-box{
-    height: 100%;
+.con input{
+        width: 100%;
+        border: 1px solid #919191;
+        height: 50px;
+        margin-bottom: 25px;
+        padding-left: 25px;
+        background-color: transparent;
+        outline: none;
+        color: #101010;
+}
+.con input.message-box{
+    height: 120px;
+}
+.con button{
+        padding: 12px 45px;
+        background-color: #db4f66;
+        color: #ffffff;
+        border: 1px solid #db4f66;
+        border-radius: 0;
+        display: block;
+        color: #fff;
+        margin: 35px auto 0 auto;
 }
