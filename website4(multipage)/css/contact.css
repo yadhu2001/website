@@ -26,3 +26,8 @@
         color: #fff;
         margin: 35px auto 0 auto;
 }
+button:hover {
+    background-color: white;
+    color: red;
+  }
+  
