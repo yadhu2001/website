@@ -9,3 +9,28 @@
 /* .quote{
     padding-left: 100px;
 } */
+.para{
+    font-size: 20px;
+}
+.name h4{
+    color: brown;
+}
+.name h5{
+color: rgb(186, 191, 196);    
+}
+.row-testi{
+  box-shadow: 5px 5px 10px gray;
+}
+/* .row-testi{
+    margin-left: 30px;
+    margin-right: 30px;
+} */
+
+/* .btnc img{
+    margin-right: 50px;
+} */
+.carousel-control-prev {
+    width: 20px;
+    background-color: rgb(185, 45, 45);
+    
+}
