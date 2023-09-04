@@ -29,8 +29,40 @@ color: rgb(186, 191, 196);
 /* .btnc img{
     margin-right: 50px;
 } */
-.carousel-control-prev {
+/* .carousel-control-prev {
     width: 20px;
     background-color: rgb(185, 45, 45);
     
+} */
+.container-testi .carousel-control-prev, .container-testi .carousel-control-next {
+    width: 45px;
+    height: 125px;
+    background-color: #db4f66;
+    opacity: 1;
+    font-size: 28px;
+    font-weight: bold;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+.carousel-control-prev {
+    left: 0;
+}
+.carousel-control-prev, .carousel-control-next {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 15%;
+    color: #fff;
+    text-align: center;
+}
+
+@media (max-width: 992px){
+    .container-testi .carousel-control-prev, .container-testi .carousel-control-next {
+    position: unset;
+    margin: 0 2.5px;
+    width: 45px;
+    height: 45px;
+}
 }
