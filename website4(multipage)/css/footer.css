@@ -1,0 +1,19 @@
+.footer .icons{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+}
+.footer .icons a {
+    margin: 0 10px;
+    color: #ffffff;
+    font-size: 24px;
+}
+.footer{
+    background-color: black;
+}
+.footer.row{
+    display: flex;
+}
+.footer-container{
+    color: #ffffff;
+}
