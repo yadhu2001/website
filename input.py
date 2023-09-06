@@ -1,0 +1,5 @@
+FirstNumber=int(input("enter a number between 1-5"))
+SecondNumber=int(input("enter a number between 6-9"))
+print(FirstNumber)
+print(SecondNumber)
+print("sum=",FirstNumber+SecondNumber)
