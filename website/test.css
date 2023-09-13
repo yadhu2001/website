@@ -1,0 +1,24 @@
+.first{
+    background-image: url('/homestay2.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 500px;
+}
+.first{
+    color: white;
+    text-align: center;
+    font-size: larger;
+    padding-top: 250px;
+    font-size: larger;
+    font-weight: 900;
+}
+.second{
+    font-weight: 900;
+}
+.head1{
+    color: orange;
+}
+.head2{
+    color:rgb(0, 0, 44);
+}
