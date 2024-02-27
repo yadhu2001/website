@@ -1,0 +1,247 @@
+
+.hero {
+    background-image: url('./img/banner7.avif');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 100px 0;
+    border-image:fill 0 linear-gradient(rgba(0, 0, 0, 0.067),#000000);
+  }
+  .destination-card h3{
+    color: rgb(84, 1, 1);
+  }
+  
+  .hero-title {
+    font-size: 3rem;
+    color: #fff;
+    font-family: initial;
+    font-weight: bolder;
+  }
+  
+  .hero-subtitle {
+    font-size: 1.5rem;
+    color: #fffb0c;
+  }
+  
+  .featured-destinations {
+    padding: 100px 0;
+    border-image:fill 0 linear-gradient(rgba(0, 0, 0, 0.067),#aad4f9);
+  }
+  .featured-destinations h2{
+    text-align: center;
+    margin-bottom: 50px;
+    color: rgb(0, 0, 0);
+    font-family:initial;
+    font-weight: bolder;
+  }
+  
+  .destination-card {
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 30px;
+    border-image:fill 0 linear-gradient(rgba(0, 0, 0, 0.067),#828281);
+  }
+  .btn{
+    color: #f7f7f7;
+    background-color: #423c3c;
+  }
+  .btn:hover{
+    background-color: #ffffff;
+    color:#423c3c;
+  }
+  
+  .destination-info {
+    padding: 20px;
+  }
+  
+  .destination-name {
+    font-size: 1.5rem;
+    font-family: initial;
+  }
+  
+  .destination-description {
+    font-size: 1.1rem;
+    font-family: initial;
+  }
+  
+  .wedding-venues {
+    padding: 100px 0;
+  }
+  
+  .venue-card {
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 30px;
+  }
+  
+  .venue-info {
+    padding: 20px;
+  }
+  
+  .venue-name {
+    font-size: 1.5rem;
+  }
+  
+  .venue-location,
+  .venue-capacity {
+    font-size: 1.1rem;
+  }
+  
+  .animated {
+    animation-duration: 1s;
+  }
+  
+  .fadeInLeft {
+    animation-name: fadeInLeft;
+  }
+  
+  .fadeIn {
+    animation-name: fadeIn;
+  }
+  
+  .about-section {
+    padding: 100px 0;
+    border-image:fill 0 linear-gradient(rgba(0, 0, 0, 0.067),#f9d0a2);
+  }
+  
+  .about-section .section-title {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+   
+  }
+  
+  .about-section p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+  }
+  
+  .about-section img {
+    border-radius: 10px;
+    border-image:fill 0 linear-gradient(rgba(0, 0, 0, 0.067),#434342);
+  }
+  .booking-section {
+    padding: 100px 0;
+    border-image:fill 0 linear-gradient(rgba(0, 0, 0, 0.067),#eaea91);
+  }
+  
+  .booking-section .section-title {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+  }
+  
+  .booking-section p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+  }
+  
+  .booking-section form {
+    margin-top: 20px;
+  }
+  
+  .booking-section form .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .booking-section form label {
+    font-size: 1.2rem;
+  }
+  
+  .booking-section form input[type="text"],
+  .booking-section form input[type="email"],
+  .booking-section form input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .booking-section form button {
+    padding: 10px 30px;
+    border-radius: 10px;
+    color: rgb(255, 247, 247);
+    background-color: brown;
+  }
+  .booking-section form button:hover{
+    background-color: rgb(232, 189, 136);
+  }
+  
+
+  .image-gallery {
+    padding: 100px 0;
+    border-image:fill 0 linear-gradient(rgba(0, 0, 0, 0.067),#f0acd8);
+  }
+  
+  .image-gallery .section-title {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+  }
+  
+  .gallery-item {
+    overflow: hidden;
+  }
+  
+  .animated-image {
+    width: 100%;
+    animation: moveImage 10s infinite alternate;
+  }
+  .image-gallery h2{
+    text-align:center;
+    font-family:initial;
+    color: brown;
+  }
+  .image-gallery h2:hover{
+    color: blueviolet;
+  }
+  
+  @keyframes moveImage {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(100px);
+    }
+  }
+  
+  
+
+
+
+
+
+  .hero-title, .hero-subtitle {
+    opacity: 0;
+    animation: fadeIn 1s ease forwards;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+.destination-card {
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeInUp 1s forwards;
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
